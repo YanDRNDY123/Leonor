@@ -1,0 +1,268 @@
+.Our-Menu
+{
+    height: 300px;
+    width: 100%;
+    background-image: url("./Group\ 55.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text p
+{
+    color: rgb(255, 227, 203);
+    font-family: Roboto Serif;
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.Top-Sellers
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 125px;
+}
+
+.segment
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.top-image
+{
+    width: 400px;
+    height: 314px;
+}
+
+.right
+{
+    text-align: center;
+}
+
+.left1
+{
+    text-align: center;
+    margin-right: 10px;
+}
+
+.top-price
+{
+    font-family: Roboto Serif;
+    font-size: 30px;
+    color: #B36C36;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.top-name
+{
+    font-family: Roboto Serif;
+    font-size: 40px;
+    color: #3F0F06;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.top-description
+{
+    width: 600px;
+    font-family: Roboto Serif;
+    font-size: 16px;
+    color: #3F0F06;
+    line-height: 35px;
+}
+
+.head2
+{
+    font-family: Roboto Serif;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    color: #3F0F06;
+}
+
+.head1
+{
+    font-family: Roboto Serif;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    color: #3F0F06;
+    margin-bottom: 0;
+}
+
+.Pastries
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px 10px 100px;
+}
+
+.listCart
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.item
+{
+    padding: 8px;
+}
+
+.cartTab .listCart .item1 {
+    padding: 8px;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.image
+{
+    width: 70px;
+    height: 55px;
+}
+.product
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid #3F0F06;
+}
+
+.product-left
+{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #3F0F06;
+
+}
+
+.prod-name
+{
+    padding-top: 25px;
+    margin: 0;
+    font-family: Roboto Serif;
+    font-size: 30px;
+    color: #3F0F06;
+}
+
+.prod-description
+{
+    margin: 0;
+    margin-top: 16px;
+    margin-bottom: 0;
+    width: 900px;
+    font-family: Roboto Serif;
+    font-size: 16px;
+    line-height: 35px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+.price
+{
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-family: Roboto Serif;
+    font-size: 35px;
+    color: #B36C36;
+    width: 100%;
+}
+
+.price p
+{
+    margin: 0;
+}
+
+.border-quote
+{
+    border-top: 1px solid #3F0F06;
+    border-bottom: 1px solid #3F0F06;
+    margin-top: 150px;
+    margin-bottom: 250px;
+}
+
+.quote
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 1000px;
+    font-family: Roboto Serif;
+    font-size: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #591F0B;
+}
+
+.add-Button
+{
+    padding: 15px 40px 15px 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    color: rgb(255, 227, 203);
+    background-color: #591F0B;
+    border: none;
+    transition: color 0.5s, background-color 0.5s, border 0.5s;
+}
+
+.add-Button:hover
+{
+    color: #591F0B;
+    background-color: rgb(255, 227, 203);
+    border: 1px solid #591F0B;
+    cursor: pointer;
+}
+
+.add-Button-small
+{
+    margin-top: 25px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    color: rgb(255, 227, 203);
+    background-color: #591F0B;
+    border: none;
+    transition: color 0.5s, background-color 0.5s, border 0.5s;
+}
+
+.add-Button-small:hover
+{
+    color: #591F0B;
+    background-color: rgb(255, 227, 203);
+    border: 1px solid #591F0B;
+    cursor: pointer;
+}
+
+.cartTab
+{
+    font-family: Roboto Serif;
+}
+
+.list-cart
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.price-computed
+{
+    text-align: center;
+    
+}
+
+ .price-computed
+ {
+    padding-top: 190px;
+    font-size: 20px;
+ }
